@@ -6,4 +6,4 @@ before_install:
     - docker build -t rohan230/frontend -f Dockerfile.dev .
 
 script:
-    - docker run rohan230/frontEnd npm run test -- --coverage
+    - docker run rohan230/frontend npm run test -- --coverage
